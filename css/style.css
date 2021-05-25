@@ -20,7 +20,7 @@ html {
   color: #111238;
   font-family: "Fira Sans", sans-serif;
 }
-.menu-link.active {
+.menu-link:hover {
   color: #1a75e8;
 }
 
