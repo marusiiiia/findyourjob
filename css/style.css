@@ -1,0 +1,40 @@
+.body,
+html {
+  color: #111238;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.menu {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.menu-item:not(:last-child) {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #111238;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.button-link {
+  color: #111238;
+  padding: 10px;
+}
+
+.button-primary {
+  background-color: #1a75e8;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin-left: 30px;
+  display: inline-block;
+  color: white;
+}
