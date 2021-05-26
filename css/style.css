@@ -76,10 +76,10 @@ html {
   padding-left: 25px;
 }
 
-/* .hero-image {
-  /* text-align: right;*/
-  padding-right: 30px;
-} */
+.hero-image {
+  text-align: right;
+  padding-right: 15px;
+}
 
 .hero-title {
   margin: 0 0 15px 0;
