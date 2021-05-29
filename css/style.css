@@ -11,6 +11,10 @@ html {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .header {
   background-color: #f2f3f6;
   padding-bottom: 50px;
@@ -98,8 +102,8 @@ html {
   line-height: 140%;
 }
 
-.search-img {
-  padding-right: 10px;
+.search-text {
+  padding-left: 10px;
 }
 
 .tags-group {
@@ -198,7 +202,7 @@ html {
   font-size: 16px;
   line-height: 19px;
   margin-right: 62px;
-  border-radius: 5px;he
+  border-radius: 5px;
 }
 
 .demands {
@@ -271,4 +275,106 @@ html {
   line-height: 19px;
   color: #111238;
   text-decoration: none;
+}
+
+.close-button {
+  font-size: 50px;
+  text-decoration: none;
+  color: #111238;
+  text-align: right;
+  padding-right: 80px;
+}
+
+@media (max-width: 1200px) {
+  .offer-salary {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .offer-title {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu-item:not(:last-child) {
+    padding: 0;
+  }
+
+  .button-primary {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .more-jobs {
+    margin: 50px auto;
+  }
+
+  img {
+    max-width: 200%;
+  }
+  .logo-little {
+    text-align: center;
+    width: 500px;
+  }
+
+  .menu {
+  }
+
+  .section-title {
+    text-align: center;
+  }
+  .more {
+    margin: 20px auto;
+  }
+
+  .text-label {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .hero-text,
+  .offer-title {
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 34px;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    left: -0;
+    top: 0;
+    transform: translateX(-100%);
+  }
+
+  .is-open {
+    transform: translateX(0);
+    transition: transform 0.3s;
+  }
+
+  .menu-item {
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
 }
