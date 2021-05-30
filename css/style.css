@@ -304,22 +304,32 @@ img {
 
   .button-primary {
     margin-left: 0;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    /* padding: 0; */
+  }
+  .subscribe {
+    padding: 5px;
+    margin-right: 0;
+  }
+
+  .offer-wrap {
+    margin-right: 0;
+  }
+
+  .subscribe-title {
+    font-size: 24px;
   }
 
   .more-jobs {
     margin: 50px auto;
   }
 
-  img {
+  .logo-img-1 {
     max-width: 200%;
   }
   .logo-little {
     text-align: center;
     width: 500px;
-  }
-
-  .menu {
   }
 
   .section-title {
